@@ -1,0 +1,85 @@
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+#renderCanvas {
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+   left:  0%;
+  right: 0%;
+  bottom:0%;
+  top: 0%;
+} 
+
+ html, body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+font-family: 'Rajdhani', sans-serif;
+    color: white;
+  font-size: large;
+
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  padding-left:10px;
+    text-align: center;
+
+}
+
+.footer {
+  position: absolute;
+  right:0;
+  bottom:0;
+  margin:5px;
+  padding:5px;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+.center {
+  position: absolute;
+  background-color: #00bfa5;
+  left:  0%;
+  right: 0%;
+  bottom:0%;
+  top: 0%;
+  margin:10px;
+  padding:10px;
+}
+
+  #fps {
+    position: absolute;
+    background-color: black;
+    border: 2px solid red;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    top: 15px;
+    right: 10px;
+    width: 60px;
+    height: 20px;
+}
